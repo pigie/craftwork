@@ -1,0 +1,391 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>tehnomart</title>
+        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+     <link rel="shortcut icon" href="https://avatars.mds.yandex.net/get-pdb/27625/ec80ead8-c021-4feb-a2fb-3a74d503b1ba/s1200" type="image/x-icon">
+     <link href="http://allfont.ru/allfont.css?fonts=varela-round" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="header">
+            <div class="headline">
+                <div class="logo">Техномарт</div>
+                <div class="search">
+                    <input type="text" placeholder="Поиск">
+                </div>
+<div class="container-btn">
+  <div class="btn-transp"><a href="#"><span onclick="openWin();"><i class="fas-fa-bookmark"></i>Закладки</span></a></div>
+
+<div class="btn-red"><a href="#"><span onclick="openWin();"><i class="fas-fa-shopping-cart"></i>Корзина</span></a></div>
+    <div class="btn-green"><a href="#"><span onclick="openWin();">Оформить заказ</span></a></div>
+</div>
+             </div>
+        </div>
+        <section class="contacts-info">
+            <div class="container">
+                <div class="inscription">
+                    <i><div class="line">Интернет-магазин</div><div class="line">строительных материалов</div><div class="line">и инструментов для ремонта</div></i>
+            </div>
+        <div class="container-phone">
+            <div class="phone"><img src="img\phone.jpg" alt="">8 (910) 344 19 39</div>
+        <div class="addr">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</div>
+        </div>
+        <div class="container-order">
+            <div class="name"><i class="fas-fa-arrow-right"></i>Войти</div>
+             <div class="regist">Регистрация</div>
+            </div>
+        </div>
+
+    <div class="container-menu">
+      <div class="menu-basic">
+        <div class="main"><a href="#">Главная</a></div>
+        <div class="main"><a href="#">Компания</a></div>
+        <div class="main"><a href="#">Каталог</a></div>
+        <div class="main"><a href="#">Новости</a></div>
+        <div class="main"><a href="#">Спецпредложения</a></div>
+        <div class="main"><a href="#">Доставка</a></div>
+        <div class="main"><a href="#">Контакты</a></div>
+            </div>
+        </div>
+        </section>
+    <!-- mesh -->
+<div class="mesh">
+ <div class="one-line">
+    <div class="materials">
+       <div class="content">
+      <div class="left">
+        <div class="title">Материалы</div>
+        <div class="btn"><a href="#">На любой вкус</a></div>
+    </div>
+    <div class="right"><img src="img\Paint_Can-512.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="materials">
+       <div class="content">
+      <div class="left">
+        <div class="title">Инструменты</div>
+        <div class="btn"><a href="#">на все случаи</a></div>
+    </div>
+    <div class="right"><img src="img\drill.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="materials">
+       <div class="content">
+      <div class="left">
+        <div class="title">Техника </div>
+        <div class="btn"><a href="#">Для стройки</a></div>
+    </div>
+     <div class="right"><img src="img\digger-512.png" alt=""></div>
+        </div>
+    </div>
+</div>
+
+<div class="two-line">
+  <div class="wrapper">
+	<input type="radio" name="point" id="slide1" checked>
+	<input type="radio" name="point" id="slide2">
+   <div class="slider">
+		<div class="slides slide1"></div>
+		<div class="slides slide2"></div>
+	</div>
+	<div class="controls">
+		<label for="slide1"></label>
+		<label for="slide2"></label>
+	</div>
+</div>
+<script>
+document.getElementById('slider-left').onclick = sliderLeft;
+document.getElementById('slider-right').onclick = sliderRight;
+var left = 0;
+var polosa = document.getElementById('polosa');
+function sliderLeft() {
+left = left - 128;
+if (left < -641) {
+    left = 0;
+}
+polosa.style.left = left + 'px';
+}
+function sliderRight() {
+left = left + 228;
+if (left > 0) {
+    left = -612;
+}
+polosa.style.left = left  + 'px';
+}
+</script>
+
+<div class="water">
+    <div class="discounts">
+     <div class="content">
+        <div class="title">Скидки 50%</div>
+         <div class="btn"> на 350 товаров</div>
+         </div>
+         <div class="right"><img src="img\cart.png" alt=""></div>
+        </div>
+
+<div class="delivery">
+    <div class="discounts"><div class="title">Доставка</div> <div class="btn"> Бесплатно</div></div>
+            <div class="right"><img src="img\bus.png" alt=""></div>
+        </div>
+    </div>
+</div>
+      </div>
+
+<div class="popular">
+ <div class="container-pop">
+     <div class="title">Популярные товары:</div>
+     <div class="btn"> Все популярные товары </div>
+ </div>
+
+ <div class="mesh-pop">
+<!-- Товар -->
+     <div class="block">
+     		<div class="prewive">
+     		 <div class="buy">
+                 <!-- cсылка на модальное окно -->
+            <i class="fas-fa-shopping-cart"></i>
+            <span onclick="openWin();">Купить</span>
+        </div>
+             <div class="bookmark">Закладки</div>
+             <div class="perf">Перфоратор BOSCH</div>
+              <div class="name">BFG 2000</div>
+              <div class="price-old"><b><s>32500р</s></b></div>
+            <div class="inscription">
+                <div class="price">12500р</div><div class="triangle"></div>
+             </div>
+     		</div>
+     		<img src="img\019437.jpg" alt="img">
+            <div class="inscription">
+                <span class="perf">Перфоратор BOSCH</span>
+                 <span class="name">BFG 2000</span>
+            </div>
+        <div class="price-old"><b><s>32500р</s></b></div>
+     <div class="inscription">
+        <div class="price">12500р</div><div class="triangle"></div>
+          </div>
+     	</div>
+<!-- -->
+<div class="block">
+       <div class="prewive">
+        <div class="buy">
+            <!-- cсылка на модальное окно -->
+       <i class="fas-fa-shopping-cart"></i>
+       <span onclick="openWin();">Купить</span>
+   </div>
+        <div class="bookmark">Закладки</div>
+        <div class="perf">Перфоратор BOSCH</div>
+         <div class="name">BFG 2000</div>
+         <div class="price-old"><b><s>32500р</s></b></div>
+       <div class="inscription">
+           <div class="price">12500р</div><div class="triangle"></div>
+        </div>
+       </div>
+       <img src="img\019437.jpg" alt="img">
+       <div class="inscription">
+           <span class="perf">Перфоратор BOSCH</span>
+            <span class="name">BFG 2000</span>
+       </div>
+   <div class="price-old"><b><s>32500р</s></b></div>
+<div class="inscription">
+   <div class="price">12500р</div><div class="triangle"></div>
+     </div>
+   </div>
+   <div class="block">
+     <div class="prewive">
+         <div class="buy">
+             <!-- cсылка на модальное окно -->
+        <i class="fas-fa-shopping-cart"></i>
+        <span onclick="openWin();">Купить</span>
+    </div>
+            <div class="bookmark">Закладки</div>
+          <div class="perf">Перфоратор BOSCH</div>
+             <div class="name">BFG 2000</div>
+        <div class="price-old"><s>32500р</s></div>
+          <div class="inscription">
+              <div class="price">12500р</div><div class="triangle"></div>
+          </div>
+             </div>
+      <img src="img\019437.jpg" alt="img">
+          <div class="inscription">
+              <span class="perf">Перфоратор BOSCH</span>
+               <span class="name">BFG 2000</span>
+          </div>
+         <div class="price-old"><s>32500р</s></div>
+   <div class="inscription">
+      <div class="price">12500р</div><div class="triangle"></div>
+      </div>
+       </div>
+<!-- Товар -->
+<div class="block">
+  <div class="prewive">
+      <div class="buy">
+          <!-- cсылка на модальное окно -->
+     <i class="fas-fa-shopping-cart"></i>
+     <span onclick="openWin();">Купить</span>
+ </div>
+         <div class="bookmark">Закладки</div>
+       <div class="perf">Перфоратор BOSCH</div>
+          <div class="name">BFG 2000</div>
+     <div class="price-old"><s>32500р</s></div>
+       <div class="inscription">
+           <div class="price">12500р</div><div class="triangle"></div>
+       </div>
+          </div>
+   <img src="img\019437.jpg" alt="img">
+       <div class="inscription">
+           <span class="perf">Перфоратор BOSCH</span>
+            <span class="name">BFG 2000</span>
+       </div>
+      <div class="price-old"><s>32500р</s></div>
+<div class="inscription">
+   <div class="price">12500р</div><div class="triangle"></div>
+   </div>
+    </div>
+<!-- ============================================================== -->
+    </div>
+ </div>
+<div class="popular-manufactures">
+  <div class="container-pop">
+    <div class="title">Популярные производители:</div>
+      <div class="btn">все популярные товары</div>
+    </div>
+</div>
+
+<div class="container-block">
+ <div class="bosch"> <img src="img\Bosch.jpg" alt=""></div>
+   <div class="bosch"> <img src="img\Bosch.jpg" alt=""></div>
+  <div class="bosch"><img src="img\Bosch.jpg" alt=""></div>
+ <div class="bosch"> <img src="img\Bosch.jpg" alt=""></div>
+  <div class="bosch"><img src="img\Bosch.jpg" alt=""></div>
+    <div class="bosch"><img src="img\Bosch.jpg" alt=""></div>
+    <div class="bosch"><img src="img\Bosch.jpg" alt=""></div>
+   <div class="bosch"><img src="img\Bosch.jpg" alt=""></div>
+</div>
+
+<section>
+    <div class="service">
+        <div class="container-serv">
+    <div class="content-left">
+        <div class="title">Сервисы</div>
+<div class="container-line">
+         <div class="line">Хороший интернет магазин отличается от плохого не только ценами!</div>
+        <div class="line">Мы стараемся изо всех сил что бы Ваши покупки были приятными.</div>
+    </div>
+<div class="category">
+        <div class="delivery-serv">Доставка</div>
+           <div class="guarantee-serv">Гарантия</div>
+          <div class="loan-serv">Кредит</div>
+    </div>
+
+    <div class="delivery-service">
+        <div class="title">Доставка</div>
+         <div class="del-txt">
+             Мы с удовольствием доставим Ваш товар прямо<br>
+             к Вашему подъезду совершенно бесплатно!<br>
+             Ведь мы неплохо заработаем,<br>
+             поднимая его на Ваш этаж
+         </div>
+    </div>
+</div>
+       </div>
+    </div>
+</section>
+
+<section>
+    <div class="container-map">
+     <div class="content-left">
+        <div class="title">Компания &laquoтехномарт&raquo</div>
+        <div class="content">
+            <div class="line">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и</div>
+               <div class="line">строительства не оставит равнодушными любителей сэкономить на гастарбайтерах</div>
+
+              <div class="line">Мы можем доставить ваш товар в самые отдаленные точки России!</div>
+            <div class="line">Техномарт работает со многими транспортными компаниями</div>
+        </div>
+        <div class="amenities">
+            <div class="line">Деловые линии</div>
+              <div class="line">Автотрейдинг</div>
+            <div class="line">ЖелДорЭкспедиция</div>
+        </div>
+          <div class="btn-comp">Подробнее о компании</div>
+        </div>
+
+        <div class="content-right">
+            <div class="title">Контакты</div>
+             <div class="txt">
+                <div class="line">Вы можете забрать товар сами,</div>
+                 <div class="line">заехав в наш офис:</div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d8000.086608950653!2d30.437943!3d59.915188!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1536773795386" width="600" height="450" frameborder="0" style="border:0"></iframe>
+                <div class="btn">Заблудились? Напишите Нам!</div>
+        </div>
+    </div>
+</section>
+<!-- -->
+        <div class="footer">
+          <div class="footer-container">
+          <div class="content-left">
+        <div class="content-b">
+            <div class="logo">Техномарт</div>
+                <div class="addr">
+                    <div class="line">г. Санкт-Петербург, ул.Б.Конюшенная, д19/8</div>
+                    <div class="line">+7 (812) 555-05-55</div>
+                </div>
+            </div>
+            </div>
+
+             <div class="content-right">
+                 <div class="menu-up">
+                    <ul class="list">
+                        <li><a href="#">Компания</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                 </div>
+                 <div class="menu-down">
+                     <ul class="list-down">
+                         <li><a href="#">Материалы</a></li>
+                         <li><a href="#">Техника</a></li>
+                         <li><a href="#">Инструмент</a></li>
+                         <li><a href="#">Спецпредложения</a></li>
+                     </ul>
+                 </div>
+             </div>
+          </div>
+        </div>
+
+        <section class="footer-down">
+         <div class="container-footer">
+             <div class="rights">© 2010–2016 Компания «Техномарт»<br> Все права защищены</div>
+            <div class="social-network">
+                <div class="vk"><i class="fab-fa-vk"></i></div>
+                <div class="fb"><i class="fab-fa-facebook-f"></i></div>
+                <div class="inst"><i class="fab-fa-instagram"></i></div>
+        <!-- Наладить Код -->
+            </div>
+        <div class="contacts">
+            <div class="feedback">
+                <div class="feedback-path">
+                    <p>Обратная связь</p>
+                    <div class="mail">landofmisha@gmail.com</div>
+                </div>
+            </div>
+
+            <div class="feedback">
+                <div class="feedback-path">
+                    <p>Разработано</p>
+                    <div class="mail">landofmisha@gmail.com</div>
+                </div>
+            </div>
+          </div>
+        </div>
+        </section>
+    </body>
+</html>
+<!-- -->
